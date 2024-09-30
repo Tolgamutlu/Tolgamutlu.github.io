@@ -38,7 +38,7 @@ header h2 {
 }
 
 .profile-image {
-  width: 120px; /* Smaller size */
+  width: 250px; /* Smaller size */
   height: auto; /* Maintain aspect ratio */
   border-radius: 0; /* No circular crop */
 }
