@@ -1,0 +1,109 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: #1a1a1a;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile-info {
+  flex: 0 0 30%; /* Set the width for profile info */
+  margin-right: 20px; /* Space between image/info and about me */
+}
+
+.profile-image {
+  width: 250px; /* Smaller size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0; /* No circular crop */
+}
+
+.info {
+  margin-top: 10px; /* Space between image and info */
+}
+
+.info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-me {
+  flex: 1; /* Allow about me section to take the remaining space */
+}
+
+.about-me h3 {
+  margin-top: 20px;
+}
+
+.project {
+  background: #222;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project h3 {
+  margin: 0;
+  color: #4CAF50;
+}
+
+.project p {
+  margin: 10px 0;
+}
+
+.btn {
+  background: #4CAF50;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #45a049;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #111;
+}
+
+a {
+  color: #fff; /* Same color as the rest of the text */
+  text-decoration: none; /* Optional: remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Optional: underline on hover */
+}
